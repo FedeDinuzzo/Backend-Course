@@ -44,7 +44,7 @@ save = async (obj) => {
       const fileContent = JSON.parse(data);
 
     // Get max id from the array of objects
-    const = maxId = fileContent.reduce((prev, curr) => 
+    const maxId = fileContent.reduce((prev, curr) => 
       prev.id > curr.id ? prev : curr
     );
 
