@@ -55,9 +55,9 @@ mostrarLetras("Buenas", 500, fin);
 //NODEJS FS MODULE
 
 //ejercicioFS
-const fs = require("fs"); //modulo que se encuentra teniendo node.js
+const fs = require("fs"); //modulo que trae node.js
 
-//Leer archivos de fomrma asincrona
+//Leer archivos de forma sincrona
 const data = fs.readFileSync("./files/archivo1.txt", "utf-8");
 console.log(data);
 

@@ -1,8 +1,32 @@
-{
-  "pets": [
-    {
-      "name": "Fiona",
-      "age": 2
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "brand": "Ford",
+    "Model": "Focus S",
+    "year": 2020,
+    "color": "White",
+    "km": 13500,
+    "price": 20000,
+    "thumbnail": "./Assets/focus_thumb.webp"   
+  },
+  {
+    "id": 1,
+    "brand": "Ford",
+    "Model": "Eco Sport Titanium",
+    "color": "blue",
+    "year": 2021,
+    "km": 32800,
+    "price": 22000,
+    "thumbnail": ""   
+  },
+  {
+    "id": 1,
+    "brand": "Ford",
+    "Model": "Focus Fiesta Se Plus AT",
+    "color": "White",
+    "year": 2020,
+    "km": 40500,
+    "price": 16000,
+    "thumbnail": ""   
+  }
+]
