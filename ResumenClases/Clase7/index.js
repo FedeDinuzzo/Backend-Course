@@ -21,11 +21,13 @@
 
 //interfaz uniforme
 //utilizacion de hipermedios
+
 const express = require('express');
 const app = express();
 
-app.get('/', (req, res) => {
+app.get('/usuario/:id', (req, res) => {
   res.json({mensaje: "hola"});
+  console.log('GET request recibido');
 })
 
 const PORT = 8080;
