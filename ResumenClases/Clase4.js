@@ -82,7 +82,7 @@ const funcionGuardar = () => {
 const funcionLeer = () => {
   //Manejo de errores
   try {
-    const data = fs.radFyleSync("./fuh.txt", "utf-8");
+    const data = fs.radFyleSync("./fyh.txt", "utf-8");
     console.log(data);
   } catch (err) {
     throw new Error("El archivo no ha sido encontro");
@@ -93,7 +93,47 @@ funcionGuardar();
 funcionLeer();
 
 
-//fs con Callbacks
+//ASYNC Function
+//Se diferencian ya que el fs es con Callbacks
 const fs = requiere("fs");
 
-fs.readFile("./files/archivo1.txt", "utf-8", (err, data))
+fs.readFile("./files/archivo1.txt", "utf-8", (err, data) => {
+  if (err) {
+    //ocurrio algun error
+  } else {
+    console.log(data);
+  }
+})
+
+
+//Crear una carpeta
+fs.mkdir(ruta, error => {
+  if (error){
+
+  } else {
+    console.log('carpeta creada!');
+  }
+})
+
+//Leer el contenido de una carpeta
+fs.readdir(ruta, (error, nombres) => {
+  if (error){
+
+  } else {
+    console.log(nombres);
+  }
+})
+
+
+//Sobreescribir un archivo con promesa
+async function escribir() {
+  try {
+    await fs.promises.writeFile('/ruta/al/archivo', 'TEXTO DE PRUEBA\n')
+    console.log('Guardado!')
+  }
+  catch (err) {
+    //Hubo un error hacer algo
+  }
+}
+
+escribir();

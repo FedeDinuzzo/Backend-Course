@@ -1,0 +1,20 @@
+[
+  {
+    "title": "AddTitleTest",
+    "price": 63500,
+    "thumbnail": "http://link4",
+    "id": 1
+  },
+  {
+    "title": "AddTitleTest",
+    "price": 63500, 
+    "thumbnail": "http://link4",
+    "id": 2
+  },
+  {
+    "title": "AddTitleTest",
+    "price": 63500, 
+    "thumbnail": "http://link4",
+    "id": 3
+  }
+]
