@@ -1,8 +1,6 @@
 //Generar 10000 números aleatorios en el rango  de 1 a 20
 function randomInt(min, max) {
-  return Math.floor((
-    Math.random() * (max - min + 1))
-  + min);
+  return Math.floor((Math.random() * (max - min + 1)) + min);
 }
 
 const object = {};
@@ -69,8 +67,8 @@ productos.forEach((el) => {
 console.log(mayor);
 
 //Otra forma de obtener el mayor y el menor
-Math.max(math.max(...productos.map(el=>el.precio)));Math.min(math.min(productos.map(el=>el.precio)));
-Math.max(math.min(...productos.map(el=>el.precio)));Math.min(math.max(productos.map(el=>el.precio)));
+Math.max(math.max(...productos.map(el=>el.precio)));
+Math.min(math.min(productos.map(el=>el.precio)));
 
 //Crear objeto con todas las propiedades creadas
 const info = {
