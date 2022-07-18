@@ -16,32 +16,62 @@ app.on('error', (err) => {
 app.get('/', (req, res) => {
   res.header('Content-Type', 'text/html; charset=UTF8')
     res.send(`
-      <html>
-      <head>
-      <style>
-        * {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-        }
-        h1 {
-          color: #3366dd;
-        }
-      </style>
-      </head>
-      <body>
-        <h1>Bienvenido al Server Express!</h1>
-        <br>
-        <p>Este servidor esta pensado para consumirse como API en los siguientes endpoints:</p>
+    <html>
+    <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+      }
+      body {
+        font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+        color: white;
+        height: 100vh;
+        width: 100vw;
+        background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+      }
+      .container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        padding: $mb-3;
+      }
+      h1 {
+        text-align: center;
+        color: #ccc;
+        font-size: 60px;
+      }
+      a {
+      font-size: 26px;
+        color: #999;
+        text-decoration: none;
+      }   
+      p {
+        font-size: 22px;
+      }
+      h3 {
+        color: #abf;
+      }
+    </style>
+    </head>
+    <body>
+      <div class="container">
+        <h1 >Welcom to Express server</h1>
+        <p>This server was created to be consumed as an API on the following endpoints:</p>
         <ul>
           <li><a href="/productos">/productos</a></li>
           <li><a href="/productoRandom">/productoRandom</a></li>
         </ul>
-        <br>
-        <p>*NOTA: Este sitio no esta pensado para ser navegado por una persona.</p>
-        <p>${req.get('User-Agent')}</p>
-      </body>
-      </html
+        <h3><b>NOTE:</b> This site is not created to be navigated by a person.</h3>
+        <h4>${req.get('User-Agent')}</h4>
+      </div>
+    </body>
+    </html
       `)
 })
 
