@@ -1,19 +1,19 @@
 [
   {
-    "title": "AddTitleTest",
-    "price": 63500,
+    "title": "Ipad pro",
+    "price": 929,
     "thumbnail": "http://link4",
     "id": 1
   },
   {
-    "title": "AddTitleTest",
-    "price": 63500, 
+    "title": "Airpods",
+    "price": 347, 
     "thumbnail": "http://link4",
     "id": 2
   },
   {
-    "title": "AddTitleTest",
-    "price": 63500, 
+    "title": "Iphone 13 pro max",
+    "price": 1269, 
     "thumbnail": "http://link4",
     "id": 3
   }

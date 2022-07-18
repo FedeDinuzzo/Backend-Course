@@ -60,4 +60,4 @@ app.get('/productoRandom', (req, res) => {
 app.get('*', (req, res) => {
     res.sendStatus(404)
     throw new Error('Not found error')
-})
+})image.png
