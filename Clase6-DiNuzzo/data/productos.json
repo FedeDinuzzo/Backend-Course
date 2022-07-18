@@ -2,19 +2,19 @@
   {
     "title": "Ipad pro",
     "price": 929,
-    "thumbnail": "http://link4",
+    "thumbnail": "https://img1/",
     "id": 1
   },
   {
     "title": "Airpods",
     "price": 347, 
-    "thumbnail": "http://link4",
+    "thumbnail": "https://img2/",
     "id": 2
   },
   {
     "title": "Iphone 13 pro max",
     "price": 1269, 
-    "thumbnail": "http://link4",
+    "thumbnail": "https://img3/",
     "id": 3
   }
 ]

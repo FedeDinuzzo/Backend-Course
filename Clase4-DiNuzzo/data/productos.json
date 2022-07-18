@@ -2,19 +2,19 @@
   {
     "title": "Ipad pro",
     "price": 929,
-    "thumbnail": "https://www.google.com/search?q=ipad+pro+img&sxsrf=ALiCzsYhLp0n2vejTfGlluhObchBHJfaew:1658108899561&tbm=isch&source=iu&ictx=1&vet=1&fir=0kO3K9NjAga1DM%252CoYVdmecbYOZ64M%252C_%253BUgO2NEbuFqG1eM%252C9EcCKbVdkInSuM%252C_%253ByqybUAOhbPk_pM%252CM_k7gETk0XKc7M%252C_%253BZ6pmbduqh3lcFM%252ChSTavw7MYX8xKM%252C_%253BjYI4U6QNbKh8dM%252CzpPbeDSjZsdGjM%252C_%253BgremrKFMPD24aM%252CsdrfSMVVDPimPM%252C_%253BxfA0ekF_TWX8kM%252C1UBD1X9_w3ArmM%252C_%253BDmCahRWiLC6saM%252C8Wsm6LBwpbnDSM%252C_%253BdHku9kAZ2hzBiM%252CrKb8gFivQvFLeM%252C_%253BJB2Tr_AmZeEjdM%252C1UBD1X9_w3ArmM%252C_&usg=AI4_-kT5XhJmx5EVXGWJN1EERLF7hnQdZQ&sa=X&ved=2ahUKEwjg29P_qIH5AhXgrZUCHb_ODPIQ9QF6BAgLEAE#imgrc=yqybUAOhbPk_pM",
+    "thumbnail": "https://img1/",
     "id": 1
   },
   {
     "title": "Airpods",
     "price": 347, 
-    "thumbnail": "https://m.media-amazon.com/images/I/51QKvd62vVL._AC_SY450_.jpg",
+    "thumbnail": "https://img2/",
     "id": 2
   },
   {
     "title": "Iphone 13 pro max",
     "price": 1269, 
-    "thumbnail": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-pro-max-silver-select?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1645552346280",
+    "thumbnail": "https://img3/",
     "id": 3
   }
 ]
