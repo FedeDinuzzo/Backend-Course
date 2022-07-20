@@ -1,14 +1,21 @@
 {
   "name": "clase7",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js",
+    "dev2": "nodemon Desafio.js",
+    "dev3": "nodemon Desafio2.js",
+    "dev4": "nodemon Desafio3.js"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
   "devDependencies": {
     "nodemon": "^2.0.19"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }

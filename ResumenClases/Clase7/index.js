@@ -18,16 +18,27 @@
 //API REST es un tipo de API que no dispone de interfaz grafica
 //se utiliza exclusivamente para comunicar sistemas mediante el protocolo HTTP
 
+//Peticiones HTTP comunes:
+//POST GET PUT DELETE
+//CRUD: CREATE READ UPDATE DELETE
 
-//interfaz uniforme
-//utilizacion de hipermedios
+//interfaz uniforme 
+//URI uniform resource identifier, identificador unico para facilitar el acceso a la informacion
+//Utilizacion de hipermedios, es posible navegar de un recurso REST a muchos otros
 
 const express = require('express');
 const app = express();
 
-app.get('/usuario/:id', (req, res) => {
+//Ejemplo de peticion GET con parametros de busqueda
+app.get('/', (req, res) => {
+  console.log(req.query);
   res.json({mensaje: "hola"});
-  console.log('GET request recibido');
+})
+
+//Ejemplo de peticion GET con identificador
+app.get('/usuario/:id', (req, res) => {
+  console.log(req.params.id);
+  res.json({idUsuario: req.params.id});
 })
 
 const PORT = 8080;
