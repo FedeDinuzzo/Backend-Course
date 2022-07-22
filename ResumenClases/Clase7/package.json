@@ -6,7 +6,8 @@
     "dev": "nodemon index.js",
     "dev2": "nodemon Desafio.js",
     "dev3": "nodemon Desafio2.js",
-    "dev4": "nodemon Desafio3.js"
+    "dev4": "nodemon Desafio3.js",
+    "dev5": "nodemon Desafio4.js"
   },
   "author": "",
   "license": "ISC",
