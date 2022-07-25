@@ -5,6 +5,9 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
+const personas = [];
+const mascotas = [];
+
 const routerPersona = Router();
 const routerMascota = Router();
 
